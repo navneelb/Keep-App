@@ -1,0 +1,83 @@
+.Container{
+    display: flex;
+    background-color: rgb(255, 251, 250);
+    box-shadow: 1px 1px 1px rgb(197, 197, 197);
+}
+img{
+    height: 3%;
+    width: 3%;
+    margin: 1% 0% 1% 2%;
+}
+#heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    margin: 1.5% 0% 1% 1% ;
+    color: rgb(91, 90, 89);
+}
+.main_note{
+    display: flex;
+    justify-content: center;
+}
+.main_note form{
+    height: 10%;
+    width: 30%;
+    margin: 2%;
+    padding: 1%;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.main_note input{
+    border: none;
+    padding: 12px 0px;
+}
+.main_note input::placeholder{
+    font-size: large;
+    font-weight: bold;
+}
+.main_note textarea{
+    border: none;
+    padding: 12px 0px;
+}
+.main_note textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size:medium;
+}
+.main_note textarea:focus{
+    outline: none;
+}
+.main_note input:focus{
+    outline: none;
+}
+.main_note Button{
+    display: flex;
+    justify-content: flex-end;
+    color: #f9b82c;
+}
+.note{
+    /* width: 15%; */
+    margin: 6%;
+    padding: 3%; 
+    display: grid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.note Button{
+    display: flex;
+    justify-content: flex-end;
+    color: #f9b82c;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+.Card{
+    display: flex;
+    flex-direction: row;
+}
+.copyright{
+    margin-top: 50vh;
+}
+.buttons{
+    display: flex;
+}
